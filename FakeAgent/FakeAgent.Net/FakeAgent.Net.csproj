@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>BenDerPan</Authors>
+    <Description>A fake agent random generater for cralwers.</Description>
+    <PackageIcon>logo.jpg</PackageIcon>
+    <RepositoryUrl>https://github.com/BenDerPan/FakeAgent.Net</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>Fake Agent Crawler</PackageTags>
+    <PackageReleaseNotes>A fake agent for .netstandard.</PackageReleaseNotes>
+    <Copyright>https://github.com/BenDerPan/FakeAgent.Net/blob/master/LICENSE</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/BenDerPan/FakeAgent.Net</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.14.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Cache\herokuapp.source-0.1.11.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Cache\online-source.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\bin\Debug\netstandard2.0\FakeAgent.Net.deps.json
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\bin\Debug\netstandard2.0\FakeAgent.Net.dll
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\bin\Debug\netstandard2.0\FakeAgent.Net.pdb
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\obj\Debug\netstandard2.0\FakeAgent.Net.csprojAssemblyReference.cache
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\obj\Debug\netstandard2.0\FakeAgent.Net.AssemblyInfoInputs.cache
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\obj\Debug\netstandard2.0\FakeAgent.Net.AssemblyInfo.cs
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\obj\Debug\netstandard2.0\FakeAgent.Net.dll
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\obj\Debug\netstandard2.0\FakeAgent.Net.pdb
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\bin\Debug\netstandard2.0\Cache\herokuapp.source-0.1.11.json
+D:\github\benderpan\FakeAgent.Net\FakeAgent\FakeAgent.Net\obj\Debug\netstandard2.0\FakeAgent.Net.csproj.CoreCompileInputs.cache
