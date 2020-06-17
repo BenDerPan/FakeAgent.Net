@@ -6,6 +6,9 @@ Fake Agent for .Net Standard.
 2. Embed: [fake-useragent.herokuapp.com](https://fake-useragent.herokuapp.com/browsers/0.1.11) 
 
 ##### Simple Usage:
+Add Package form Nuget:
+* Package Manager: PM> `Install-Package FakeAgent.Net`
+* .Net Client: `dotnet add package FakeAgent.Net`
 ```C#
     var isOk = await FakeAgent.TryLoadSource(useLocal: false);
     Assert.AreEqual(true, isOk);
