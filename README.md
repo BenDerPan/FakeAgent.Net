@@ -2,7 +2,7 @@
 Fake Agent for .Net Standard.
 
 #### Source Data Come From:
-1. Onlne data:[useragentstring.com](http://useragentstring.com/pages/useragentstring.php)
+1. Online data:[useragentstring.com](http://useragentstring.com/pages/useragentstring.php)
 2. Embed: [fake-useragent.herokuapp.com](https://fake-useragent.herokuapp.com/browsers/0.1.11) 
 
 ##### Simple Usage:
