@@ -37,6 +37,10 @@ namespace FakeAgent.Net
         {
             get
             {
+                if (OnlineSource.Instance.Source==null)
+                {
+                    throw new NullReferenceException("Fake Agent not can not get data source from local file or update onlie, use TryLoadSource(true) to update online.");
+                }
                 var browserKey = _random.Next(0, OnlineSource.Instance.Source.Randomize.Count).ToString();
                 var browser = OnlineSource.Instance.Source.Randomize[browserKey];
                 var agentIndex = _random.Next(0, OnlineSource.Instance.Source.Browsers[browser].Count);

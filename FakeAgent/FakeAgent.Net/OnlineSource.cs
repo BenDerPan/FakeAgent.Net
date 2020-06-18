@@ -28,9 +28,12 @@ namespace FakeAgent.Net
 
         public Agent Source { get; private set; }
 
-        readonly static OnlineSource _instance = new OnlineSource();
+        readonly static OnlineSource _instance;
         public static OnlineSource Instance => _instance;
-
+        static OnlineSource()
+        {
+            _instance = new OnlineSource();
+        }
         private OnlineSource()
         {
             TryOfflineLoad();

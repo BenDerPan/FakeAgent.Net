@@ -12,6 +12,7 @@
     <Copyright>https://github.com/BenDerPan/FakeAgent.Net/blob/master/LICENSE</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/BenDerPan/FakeAgent.Net</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,15 +22,18 @@
 
   <ItemGroup>
     <None Update="Cache\herokuapp.source-0.1.11.json">
+    	<Pack>True</Pack>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Cache\online-source.json">
+    	<Pack>True</Pack>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="logo.jpg">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+
   </ItemGroup>
 
 </Project>

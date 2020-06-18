@@ -11,6 +11,12 @@ namespace FakeAgent.Net.Model
 
         public Dictionary<string,string> Randomize { get; set; }
 
+        public Agent()
+        {
+            Browsers = new Dictionary<string, List<string>>();
+            Randomize = new Dictionary<string, string>();
+        }
+
         public static Agent LoadFromJson(string jsonStr)
         {
             try
