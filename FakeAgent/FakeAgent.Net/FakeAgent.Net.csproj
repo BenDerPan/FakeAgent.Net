@@ -12,7 +12,7 @@
     <Copyright>https://github.com/BenDerPan/FakeAgent.Net/blob/master/LICENSE</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/BenDerPan/FakeAgent.Net</PackageProjectUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

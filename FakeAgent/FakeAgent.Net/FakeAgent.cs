@@ -26,6 +26,17 @@ namespace FakeAgent.Net
         }
 
         /// <summary>
+        /// Try load user defined source form json file
+        /// </summary>
+        /// <param name="jsonFile">custom json file</param>
+        /// <returns></returns>
+        public static async Task<bool> TryLoadCustomSource(string jsonFile)
+        {
+            bool isOk= OnlineSource.Instance.TryLoadCustom(jsonFile);
+            return await Task.FromResult(isOk);
+        }
+
+        /// <summary>
         /// All agents with browser
         /// </summary>
         public static Dictionary<string, List<string>> BrowerAgents => OnlineSource.Instance.Source.Browsers;

@@ -134,6 +134,29 @@ namespace FakeAgent.Net
             return false;
         }
 
+        public bool TryLoadCustom(string jsonFile)
+        {
+            try
+            {
+                if (File.Exists(jsonFile))
+                {
+                    var tempSource = Agent.LoadFromJson(File.ReadAllText(jsonFile));
+                    if (tempSource != null)
+                    {
+                        Source = tempSource;
+                        return true;
+                    }
+                }
+            }
+
+            catch (Exception e)
+            {
+
+            }
+
+            return false;
+        }
+
         string GetDefaultSourceUrlByBrowser(string browser)
         {
             return string.Format(DefaultSourceUrlFormat, browser);
